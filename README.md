@@ -20,4 +20,8 @@
 - 使用原始SVM去Train
   感覺效果超級不好，但因為資料少之又少，可能還要想方法去做training的動作，目前已嘗試修改成使用LSTM，RCNN等Deep Learning的模型去做training且持續收集資料，並以Transfer Learning去做感覺會比較好
   
+## Model 串接 Unity
 
+## AR Unity 建置環境
+
+## TODO
