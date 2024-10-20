@@ -1,0 +1,3 @@
+clock_move
+hand_raise
+shoulder_squeeze
