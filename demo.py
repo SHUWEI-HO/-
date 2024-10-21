@@ -41,13 +41,13 @@ def compute_distances(landmarks, mode='Upper'):
     else:
         raise ValueError(f"Unsupported mode: {mode}")
 
-    p_ref1 = np.array([landmarks[reference_pair[0]].x, landmarks[reference_pair[0]].y])
-    p_ref2 = np.array([landmarks[reference_pair[1]].x, landmarks[reference_pair[1]].y])
+    p_ref1 = np.array([landmarks[reference_pair[0]].x, landmarks[reference_pair[0]].y, landmarks[reference_pair[0]].z])
+    p_ref2 = np.array([landmarks[reference_pair[1]].x, landmarks[reference_pair[1]].y, landmarks[reference_pair[1]].z])
     reference_distance = np.linalg.norm(p_ref1 - p_ref2)
 
     for pair in pairs:
-        p1 = np.array([landmarks[pair[0]].x, landmarks[pair[0]].y])
-        p2 = np.array([landmarks[pair[1]].x, landmarks[pair[1]].y])
+        p1 = np.array([landmarks[pair[0]].x, landmarks[pair[0]].y, landmarks[pair[0]].z])
+        p2 = np.array([landmarks[pair[1]].x, landmarks[pair[1]].y, landmarks[pair[1]].z])
         distance = np.linalg.norm(p1 - p2)
         distances.append(distance / reference_distance)  # Normalize distance
 
