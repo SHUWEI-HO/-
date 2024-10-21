@@ -24,7 +24,7 @@
 - 使用原始SVM去Train
   感覺效果超級不好，但因為資料少之又少，可能還要想方法去做training的動作，目前已嘗試修改成使用LSTM，RCNN等Deep Learning的模型去做training且持續收集資料，並以Transfer Learning去做感覺會比較好
 
-- 等惠下午將lstm的程式碼也上傳上去，但這個程式碼並非最終版，還需做一些改進
+- 等惠下午將LSTM的程式碼也上傳上去，但這個程式碼並非最終版，還需做一些改進
   
 ## Model 串接 Unity
   目前已了解如何在Unity跟python相連，並已初步將自身的動作連接到Unity上，後續等待張郁華建設好AR環境，明天會去詳細了解three.js如何跟Mediapipe去相接的部分
