@@ -36,4 +36,8 @@
   目前已了解如何在Unity跟python相連，並已初步將自身的動作連接到Unity上，後續等待張郁華建設好AR環境，明天會去詳細了解three.js如何跟Mediapipe去相接的部分
 ## AR Unity 建置環境
   目前10/22號看張郁華跟凃亮伃他們建立的結果如何
+  ![Demo](ar_videos/AR展示.mp4)
+  
+
+  
 ## TODO
